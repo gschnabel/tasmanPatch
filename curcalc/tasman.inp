@@ -18,7 +18,7 @@ endfdetail y
 #
 
 #change
-#getcalcscript /TMC/georg/shscripts/get_talys_calc.sh
+#getcalcscript ../get_talys_calc.sh
 #mode 1
 #offset 0
 #weight n
