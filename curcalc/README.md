@@ -5,7 +5,7 @@ energy file `energies`.
 Running TASMAN creates a lot of other files containing
 the results of TALYS and in additional information 
 specific to TASMAN.
-If TASMAN is on the path, it can be stared by
+If TASMAN is on the path, it can be started by
 
 ```
 tasman < tasman.inp > tasman.out

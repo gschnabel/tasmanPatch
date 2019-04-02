@@ -26,6 +26,8 @@ files in a `backup` folder under the source folder.
 Original files will only be modified, if all source files concerned
 were successfully patched.
 
+After the patch has been applied, TASMAN needs to be rebuild.
+
 ## Using modified TASMAN
 
 This repository already contains a directory structure that may be used.
