@@ -18,7 +18,7 @@ to add two input keywords:
 Edit the variable `$tasman_path` in the script `modify_tasman.sh` so
 that it points to the diretory containing the TASMAN source files.
 Make sure that GNU awk (`gawk`) is available on the system.
-Then just run the script
+Then run the script
 ```
 ./modify_tasman.sh
 ```
@@ -27,7 +27,7 @@ files in a `backup` folder under the source folder.
 Original files will only be modified if all source files concerned
 were successfully patched.
 
-After the patch has been applied, TASMAN needs to be rebuild.
+After the patch has been applied, TASMAN needs to be rebuilt.
 
 ## Using modified TASMAN
 
