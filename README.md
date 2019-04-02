@@ -24,7 +24,7 @@ Then just run the script
 ```
 This will modify several source files and keep a backup of the original
 files in a `backup` folder under the source folder.
-Original files will only be modified, if all source files concerned
+Original files will only be modified if all source files concerned
 were successfully patched.
 
 After the patch has been applied, TASMAN needs to be rebuild.
