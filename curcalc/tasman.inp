@@ -1,0 +1,29 @@
+# 
+# Exemplary TASMAN input file 
+#
+
+# definition of system
+projectile n
+element    fe
+mass       056
+energy     energies
+
+# definition of output
+endf y
+endfdetail y
+
+#
+# TASMAN specific options
+# activated by the 'change' keyword
+#
+
+#change
+#getcalcscript /TMC/georg/shscripts/get_talys_calc.sh
+#mode 1
+#offset 0
+#weight n
+#ntalys 5
+
+## the variation of this parameter has no effect
+## because parameter #getcalcscript defined
+rvadjust n 1 0.1
