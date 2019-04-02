@@ -605,7 +605,7 @@ if [ $anyfailed -eq 0 ]; then
     curfile="tasmaninitial.f" && \
     cp "$backup_path/${curfile}.new" "$tasman_path/${curfile}" && \
     curfile="uncertainty.f" && \
-    cp "$backup_path/${curfile}.new" "$tasman_path/${curfile}" && \
+    cp "$backup_path/${curfile}.new" "$tasman_path/${curfile}" 
 
     if [ $? -ne 0 ]; then
         echo "ERROR: something went wrong during copying the patched files" >> "/dev/stderr"
