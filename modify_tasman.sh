@@ -114,7 +114,7 @@ $0 ~ regex_datakey && patched_numkey && !patched_datakey {
     while (1) {
         if (getline <= 0) {
             print("unexpected EOF") > "/dev/stderr"
-            exit
+            exit 1
         }
         isnonempty = index($0, ",")
         found = index($0, "/")
