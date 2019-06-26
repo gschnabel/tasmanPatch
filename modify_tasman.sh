@@ -1,4 +1,4 @@
-#!/usr/bin/sh 
+#!/bin/sh 
 
 ##################################################
 #       
@@ -23,6 +23,13 @@ local_patch_endmsg='\nc end of patch by Georg Schnabel\n'
 #           PROGRAM
 #
 ##################################################
+
+if [ -z "$1" ]; then
+   echo "Usage: modify_tasman.sh <TASMAN SOURCE PATH>"
+   exit 1
+else
+   tasman_path="$1" 
+fi
 
 # sanity checks
 

@@ -15,13 +15,13 @@ to add two input keywords:
 
 ## Applying the patch
 
-Edit the variable `$tasman_path` in the script `modify_tasman.sh` so
-that it points to the diretory containing the TASMAN source files.
 Make sure that GNU awk (`gawk`) is available on the system.
-Then run the script
+Run the script
 ```
-./modify_tasman.sh
+./modify_tasman.sh <TASMAN SOURCE PATH>
 ```
+Replace `<TASMAN SOURCE PATH>` by the path pointing to the directory
+that contains the source files of TASMAN.
 This will modify several source files and keep a backup of the original
 files in a `backup` folder under the source folder.
 Original files will only be modified if all source files concerned
