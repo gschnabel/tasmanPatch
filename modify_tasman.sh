@@ -14,11 +14,12 @@ fi
 tasman_path="$1"
 backup_path="$tasman_path/backup"
 
- patch_message='c +--------------------------------------------------\n'
-patch_message+='c |   patched by Georg Schnabel                      \n'
-patch_message+='c |   to enable reading parameter variations from    \n'
-patch_message+='c |   a file and using precalculated TALYS results   \n'
-patch_message+='c +--------------------------------------------------\n'
+patch_message=''
+patch_message="$path_message"'c +--------------------------------------------------\n'
+patch_message="$path_message"'c |   patched by Georg Schnabel                      \n'
+patch_message="$path_message"'c |   to enable reading parameter variations from    \n'
+patch_message="$path_message"'c |   a file and using precalculated TALYS results   \n'
+patch_message="$path_message"'c +--------------------------------------------------\n'
 
 local_patch_startmsg='c start of patch by Georg Schnabel\n'
 local_patch_endmsg='\nc end of patch by Georg Schnabel\n'
